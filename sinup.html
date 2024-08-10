@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sinup</title>
+</head>
+<body id="body-edit">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration & login</title>
+    <link rel="stylesheet" href="land.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-data">
+            <div class="Logo">NextGen Digital</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar">bar</span>
+                <span class="bar">bar</span>
+                <span class="bar">bar</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">services</a></li>
+            </ul>
+            <div class="login-details">
+                <ul>
+                    <li><a href="#" onclick="showLogin()">Login</a></li>
+                    <li><a href="#" onclick="showRegistration()">Register</a></li>
+                </ul>
+
+            </div>
+        </nav>    
+    </header>
+        <section id="login-section" class="hidden">
+            <h2>login</h1>
+            <form id="login-form">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="email" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="password" required>
+                <button type="submit">login</button>    
+            </form>              
+        </section>
+
+        <section id="register-section" class="hidden">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" name="email" required>
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="password" required>
+                <button type="submit">Register</button>    
+            </form> 
+        </section>
+    </main>
+    <script src="sinup.js"></script>
+</body>
+</html>
+</body>
+</html>
